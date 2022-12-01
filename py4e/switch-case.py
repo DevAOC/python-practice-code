@@ -7,11 +7,3 @@ def switchCase(opened: str) -> bool:  # This function is an example of type defi
             return False
         case _:
             return False
-
-
-tries = 0
-while True:
-    if input('> ') == 'exit':
-        break
-    tries += 1
-    print('Attempted to break out ' + str(tries) + ' times.')
